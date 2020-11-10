@@ -11,7 +11,7 @@ def read_file(filename):
 
 
 setup(
-    name=pm4py.__name__,
+    name="pm4pyminimal",
     version=pm4py.__version__,
     description=pm4py.__doc__.strip(),
     long_description=read_file('README.md'),
@@ -144,26 +144,12 @@ setup(
     url='http://www.pm4py.org',
     license='GPL 3.0',
     install_requires=[
-        "ciso8601; python_version < '3.7'",
-        'deprecation',
-        'graphviz',
-        'intervaltree',
-        'jsonpickle',
-        'lxml',
-        'matplotlib',
-        'networkx',
-        'numpy',
-        'pandas',
-        "pm4pycvxopt>=0.0.10; python_version < '3.9'",
-        'pulp<=2.1',
-        'pydotplus',
-        'pytz',
-        'pyvis',
-        'scikit-learn',
-        'scipy',
-        'stringdist',
-        'sympy',
-        'tqdm'
+        "stringdist",
+        "graphviz",
+        "intervaltree",
+        "numpy",
+        "pydotplus",
+        "networkx"
     ],
     project_urls={
         'Documentation': 'http://www.pm4py.org',
