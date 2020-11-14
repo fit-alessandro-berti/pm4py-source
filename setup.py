@@ -149,7 +149,8 @@ setup(
         "intervaltree",
         "numpy",
         "pydotplus",
-        "networkx"
+        "networkx",
+        "deprecation"
     ],
     project_urls={
         'Documentation': 'http://www.pm4py.org',
