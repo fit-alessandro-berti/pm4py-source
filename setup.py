@@ -154,7 +154,7 @@ setup(
         "stringdist",
         "graphviz",
         "intervaltree",
-        "numpy<=1.19.3",
+        "numpy",
         "pydotplus",
         "networkx",
         "deprecation"
